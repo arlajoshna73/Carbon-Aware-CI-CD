@@ -39,7 +39,7 @@ jobs:
           # If workflow_dispatch → use dropdown input
           # If push → default to "flexible"
           JOB_TYPE: ${{ github.event.inputs.job_type || 'flexible' }}
-        run: python carbon_check.py
+        run: python Carbon-check.py
  
   deploy:
     needs: carbon-check
