@@ -29,7 +29,7 @@ print(f"🔎 Forecast: {forecast} gCO₂/kWh")
 print(f" Actual:   {actual} gCO₂/kWh")
 print(f" Index:    {index}")
 print(f" Job type: {job_type}")
- 
+
 # Threshold for "green energy"
 THRESHOLD = 200  
  
